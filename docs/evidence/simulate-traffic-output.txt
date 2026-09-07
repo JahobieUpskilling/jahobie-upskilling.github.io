@@ -1,0 +1,22 @@
+Run: 2026-09-07, against the live site
+Command: VISITORS=8 node scripts/simulate-traffic.js
+
+Simulating 8 visitors against https://jahobieupskilling.github.io/jahobie-upskilling.github.io/
+
+  visitor  1 | desktop | facebook group     | book   | booked
+  visitor  2 | desktop | facebook group     | bounce | left without booking
+  visitor  3 | mobile  | direct             | book   | booked
+  visitor  4 | mobile  | facebook group     | book   | booked
+  visitor  5 | mobile  | facebook group     | browse | left without booking
+  visitor  6 | desktop | direct             | cancel | booked then cancelled
+  visitor  7 | desktop | direct             | browse | left without booking
+  visitor  8 | mobile  | facebook group     | bounce | left without booking
+
+Summary
+  visitors:            8
+  bookings completed:  4 (50% conversion)
+  bookings cancelled:  1
+  left without booking:4
+  from Facebook group: 5, of which booked: 2
+
+Open PostHog -> Activity to see these sessions arrive.
