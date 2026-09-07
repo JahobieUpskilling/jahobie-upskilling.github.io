@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ABC Tutoring — K–12 tutors you can book online</title>
+<meta name="description" content="ABC Tutoring pairs K–12 students with local tutors for one-hour sessions. See each tutor's subjects, grade levels, hourly rate, and open times, then book online in about a minute.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<!-- PostHog: product analytics + session replay. Loaded first so automatic
+     pageview and autocapture behavior covers the whole session. -->
+<script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}p||((p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",p.onerror=function(){p=null},(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r));var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],Object.defineProperty(u,"toString",{configurable:!0,enumerable:!0,writable:!0,value:function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e}}),Object.defineProperty(u.people,"toString",{configurable:!0,enumerable:!0,writable:!0,value:function(){return u.toString(1)+".people (stub)"}}),o="El Rl Pl Al Ll init iu ru Xl tu au fa eu uu Jl cu fu pu capture getExtension nu Ml yu calculateEventProperties mu register register_once register_for_session unregister unregister_for_session ku Yl bu getFeatureFlag getFeatureFlagPayload getFeatureFlagResult getAllFeatureFlags isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Su identify setPersonProperties unsetPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset xu shutdown setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty vu createPersonProfile setInternalOrTestUser wu Dl $l opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing hu debug pa ns getPageViewId captureTraceFeedback captureTraceMetric Vl".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_saoJSQwYc4saGsXnQUE9ioBcUvHtPVq5SBb8BqiMhcwK', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2026-05-30',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+        // Privacy: the booking form collects family details, so every input on
+        // the site is masked in session replay and excluded from autocapture
+        // (elements carrying .ph-no-capture are never autocaptured).
+        session_recording: {
+            maskAllInputs: true,
+            maskTextSelector: '[data-private]'
+        }
+    })
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" data-nav="home">
+      <img src="assets/favicon.svg" alt="" width="34" height="34" aria-hidden="true">
+      <span><strong>ABC Tutoring</strong><span class="brand-sub">K–12 tutoring, one hour at a time</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#tutors">Our tutors</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#my-bookings">My bookings <span class="nav-count" id="navBookingCount" hidden aria-hidden="true">0</span></a>
+    </nav>
+    <a class="btn btn-primary btn-sm header-cta" href="#tutors" data-cta="header">Book a session</a>
+  </div>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Local tutoring for Kindergarten through 12th grade</p>
+        <h1>Find the right tutor for your child, and book the hour that works for you.</h1>
+        <p class="lede">
+          We are a small tutoring service, so you are choosing a person and not a program.
+          Every tutor's subjects, grade levels, hourly rate, and open times are listed below —
+          pick a time that fits your week and book it here instead of texting Dana at 9pm.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#tutors" data-cta="hero_primary">See our tutors</a>
+          <a class="btn btn-ghost" href="#how-it-works" data-cta="hero_secondary">How booking works</a>
+        </div>
+        <ul class="trust-row">
+          <li><span aria-hidden="true">✓</span> One-hour sessions, no packages to sign up for</li>
+          <li><span aria-hidden="true">✓</span> Every tutor is background checked</li>
+          <li><span aria-hidden="true">✓</span> Most of our students are in middle school</li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-card hero-card-1">
+          <img src="assets/tutors/maya-ellison.svg" alt="" width="72" height="72">
+          <div><strong>Maya E.</strong><span>Pre-Algebra · Grades 4–9</span><span class="hero-slot">Thu 4:30 PM open</span></div>
+        </div>
+        <div class="hero-card hero-card-2">
+          <img src="assets/tutors/priya-raman.svg" alt="" width="72" height="72">
+          <div><strong>Priya R.</strong><span>Reading &amp; Writing · Grades 2–8</span><span class="hero-slot">Tue 5:00 PM open</span></div>
+        </div>
+        <div class="hero-card hero-card-3">
+          <img src="assets/tutors/daniel-okafor.svg" alt="" width="72" height="72">
+          <div><strong>Daniel O.</strong><span>Science · Grades 6–12</span><span class="hero-slot">Sat 4:00 PM open</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how-it-works" class="section section-alt" aria-labelledby="how-title">
+    <div class="wrap">
+      <h2 id="how-title">What booking a session involves</h2>
+      <p class="section-lede">
+        Three steps, about a minute. Nothing is charged on this site — you pay your tutor
+        directly at the session, at their hourly rate.
+      </p>
+      <ol class="steps">
+        <li>
+          <span class="step-num" aria-hidden="true">1</span>
+          <h3>Pick a tutor</h3>
+          <p>Filter by subject, your child's grade, and hourly rate. Each profile lists what the tutor
+             covers, how they run a session, and who they work best with.</p>
+        </li>
+        <li>
+          <span class="step-num" aria-hidden="true">2</span>
+          <h3>Choose an open hour</h3>
+          <p>You see that tutor's real openings for the next three weeks. Taken hours are shown as
+             booked so you are never picking a time that is already gone.</p>
+        </li>
+        <li>
+          <span class="step-num" aria-hidden="true">3</span>
+          <h3>Tell us about your student</h3>
+          <p>Your name and email, your child's first name and grade, and the subject they need.
+             Dana confirms by email, usually the same evening.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Tutors -->
+  <section id="tutors" class="section" aria-labelledby="tutors-title">
+    <div class="wrap">
+      <h2 id="tutors-title">Our tutors</h2>
+      <p class="section-lede">
+        Six tutors, all local. Compare rates and openings side by side, then open a profile to see
+        whether they are the right fit for your child.
+      </p>
+
+      <form class="filters" id="filters" aria-label="Filter tutors">
+        <div class="field">
+          <label for="filterSubject">Subject</label>
+          <select id="filterSubject" name="subject">
+            <option value="">All subjects</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filterGrade">Student's grade</label>
+          <select id="filterGrade" name="grade">
+            <option value="">Any grade</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filterDay">Day that works</label>
+          <select id="filterDay" name="day">
+            <option value="">Any day</option>
+            <option value="1">Mondays</option>
+            <option value="2">Tuesdays</option>
+            <option value="3">Wednesdays</option>
+            <option value="4">Thursdays</option>
+            <option value="5">Fridays</option>
+            <option value="6">Saturdays</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="filterRate">Hourly rate up to <output id="filterRateOut" for="filterRate">$55</output></label>
+          <input type="range" id="filterRate" name="rate" min="38" max="55" step="1" value="55">
+        </div>
+        <div class="field">
+          <label for="sortBy">Sort by</label>
+          <select id="sortBy" name="sort">
+            <option value="recommended">Recommended</option>
+            <option value="rate-asc">Hourly rate: low to high</option>
+            <option value="rate-desc">Hourly rate: high to low</option>
+            <option value="soonest">Soonest opening</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-quiet" id="clearFilters">Clear filters</button>
+      </form>
+
+      <p class="results-count" id="resultsCount" role="status" aria-live="polite"></p>
+      <div class="tutor-grid" id="tutorGrid"></div>
+      <div class="empty-state" id="noResults" hidden>
+        <h3>No tutor matches those filters yet</h3>
+        <p>Try widening the grade range or the hourly rate. If you cannot find a fit,
+           email <a href="mailto:hello@abctutoring.example">hello@abctutoring.example</a> and Dana will
+           see who she can bring in.</p>
+        <button type="button" class="btn btn-secondary" id="clearFiltersEmpty">Clear all filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- My bookings -->
+  <section id="my-bookings" class="section section-alt" aria-labelledby="bookings-title">
+    <div class="wrap">
+      <h2 id="bookings-title">My bookings</h2>
+      <p class="section-lede">
+        Sessions you have booked on this device. Plans change — you can cancel here and the hour
+        goes straight back on your tutor's calendar.
+      </p>
+      <div id="bookingsList" class="bookings-list"></div>
+      <div class="empty-state" id="noBookings">
+        <h3>No sessions booked yet</h3>
+        <p>Once you book, your session details show up here — including how to reach your tutor.</p>
+        <a class="btn btn-secondary" href="#tutors" data-cta="empty_bookings">Browse tutors</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" aria-labelledby="faq-title">
+    <div class="wrap wrap-narrow">
+      <h2 id="faq-title">Questions parents ask us</h2>
+      <div class="faq">
+        <details>
+          <summary>How do we pay?</summary>
+          <p>You pay your tutor directly at the end of the session, at the hourly rate on their profile.
+             There is nothing to pay on this website and no card is collected.</p>
+        </details>
+        <details>
+          <summary>Where do sessions happen?</summary>
+          <p>Most sessions are at the public library on Main Street or online over video, whichever you
+             prefer. Dana confirms the location in the email that follows your booking.</p>
+        </details>
+        <details>
+          <summary>What if my child needs a subject that is not listed?</summary>
+          <p>Ask us. We are a small service and Dana often knows a tutor who is not on the site yet.
+             Email <a href="mailto:hello@abctutoring.example">hello@abctutoring.example</a>.</p>
+        </details>
+        <details>
+          <summary>Can we book the same tutor every week?</summary>
+          <p>Yes. Book the first session here, then tell your tutor you would like a standing hour and
+             Dana will hold it for you. There is no package or contract to sign.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <strong>ABC Tutoring</strong>
+      <p>Tutoring for Kindergarten through 12th grade, run by Dana and a small team of local tutors.</p>
+    </div>
+    <div>
+      <strong>Get in touch</strong>
+      <p>
+        <a href="mailto:hello@abctutoring.example">hello@abctutoring.example</a><br>
+        Find us in the neighborhood parents' Facebook group
+      </p>
+    </div>
+    <div>
+      <strong>Good to know</strong>
+      <p>Sessions are one hour. Bookings on this prototype are saved in your browser only.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Tutor profile → time → details → confirmation -->
+<dialog id="panel" class="panel" aria-labelledby="panelTitle">
+  <div class="panel-head">
+    <button type="button" class="icon-btn panel-back" id="panelBack" hidden>
+      <span aria-hidden="true">←</span> Back
+    </button>
+    <h2 class="panel-title" id="panelTitle">Tutor profile</h2>
+    <button type="button" class="icon-btn panel-close" id="panelClose" aria-label="Close">
+      <span aria-hidden="true">✕</span>
+    </button>
+  </div>
+  <ol class="panel-steps" id="panelSteps" hidden>
+    <li data-step="time">Choose a time</li>
+    <li data-step="details">Student details</li>
+    <li data-step="confirmed">Confirmed</li>
+  </ol>
+  <div class="panel-body" id="panelBody"></div>
+</dialog>
+
+<!-- Cancellation confirmation -->
+<dialog id="cancelDialog" class="panel panel-sm" aria-labelledby="cancelTitle">
+  <div class="panel-body">
+    <h2 id="cancelTitle">Cancel this session?</h2>
+    <p id="cancelSummary" class="cancel-summary"></p>
+    <p>The hour goes back on the tutor's calendar right away and other families can book it.</p>
+    <div class="panel-actions">
+      <button type="button" class="btn btn-quiet" id="cancelDismiss">Keep the session</button>
+      <button type="button" class="btn btn-danger" id="cancelConfirm">Yes, cancel it</button>
+    </div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="tutors.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

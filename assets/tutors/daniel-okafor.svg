@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated portrait of Daniel Okafor">
+  <title>Illustrated portrait of Daniel Okafor</title>
+  <rect width="400" height="400" fill="#fde7d3"/>
+  <circle cx="200" cy="212" r="150" fill="#fff7e3"/>
+  <path d="M52 400 C52 322 118 282 200 282 C282 282 348 322 348 400 Z" fill="#e08a4b"/>
+  <path d="M200 282 L228 306 L216 348 L200 322 L184 348 L172 306 Z" fill="#ffac6d"/>
+  <path d="M52 400 C52 366 66 340 90 322 L104 400 Z" fill="#c26c2d" opacity=".35"/>
+  <path d="M348 400 C348 366 334 340 310 322 L296 400 Z" fill="#c26c2d" opacity=".35"/>
+  <path d="M176 236 h48 v54 a24 24 0 0 1 -48 0 Z" fill="#733b0a"/>
+  <ellipse cx="128" cy="184" rx="14" ry="18" fill="#8d5524"/>
+  <ellipse cx="272" cy="184" rx="14" ry="18" fill="#8d5524"/>
+  <ellipse cx="200" cy="176" rx="74" ry="84" fill="#8d5524"/>
+  <path d="M126 172 C126 104 152 78 200 78 C248 78 274 104 274 172 C274 142 254 124 200 124 C146 124 126 142 126 172 Z" fill="#231a15"/>
+  <ellipse cx="166" cy="216" rx="13" ry="8" fill="#6b3302" opacity=".45"/>
+  <ellipse cx="234" cy="216" rx="13" ry="8" fill="#6b3302" opacity=".45"/>
+  <path d="M156 162 C164 154 180 154 188 160" stroke="#0f0601" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M212 160 C220 154 236 154 244 162" stroke="#0f0601" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <ellipse cx="172" cy="186" rx="7" ry="8.5" fill="#2f2a3d"/>
+  <ellipse cx="228" cy="186" rx="7" ry="8.5" fill="#2f2a3d"/>
+  <circle cx="174.5" cy="183" r="2.4" fill="#ffffff"/>
+  <circle cx="230.5" cy="183" r="2.4" fill="#ffffff"/>
+  <path d="M194 200 C198 208 202 208 206 202" stroke="#652d00" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M176 222 C188 238 212 238 224 222" stroke="#8a4b46" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <g fill="none" stroke="#39424f" stroke-width="6" opacity=".9">
+    <rect x="146" y="168" width="52" height="40" rx="14"/>
+    <rect x="202" y="168" width="52" height="40" rx="14"/>
+    <path d="M198 186 h4" stroke-linecap="round"/>
+    <path d="M146 182 L126 178" stroke-linecap="round"/>
+    <path d="M254 182 L274 178" stroke-linecap="round"/>
+  </g>
+</svg>

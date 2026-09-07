@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Illustrated portrait of Sam Torres">
+  <title>Illustrated portrait of Sam Torres</title>
+  <rect width="400" height="400" fill="#dff0fb"/>
+  <circle cx="200" cy="212" r="150" fill="#efffff"/>
+  <path d="M52 400 C52 322 118 282 200 282 C282 282 348 322 348 400 Z" fill="#3f87c4"/>
+  <path d="M200 282 L228 306 L216 348 L200 322 L184 348 L172 306 Z" fill="#61a9e6"/>
+  <path d="M52 400 C52 366 66 340 90 322 L104 400 Z" fill="#2169a6" opacity=".35"/>
+  <path d="M348 400 C348 366 334 340 310 322 L296 400 Z" fill="#2169a6" opacity=".35"/>
+  <path d="M176 236 h48 v54 a24 24 0 0 1 -48 0 Z" fill="#bf8052"/>
+  <ellipse cx="128" cy="184" rx="14" ry="18" fill="#d99a6c"/>
+  <ellipse cx="272" cy="184" rx="14" ry="18" fill="#d99a6c"/>
+  <ellipse cx="200" cy="176" rx="74" ry="84" fill="#d99a6c"/>
+  <path d="M126 178 C126 106 152 80 200 80 C248 80 274 106 274 178 C274 148 258 130 200 130 C142 130 126 148 126 178 Z" fill="#2e2018"/><circle cx="136" cy="116" r="26" fill="#2e2018"/><circle cx="170" cy="92" r="28" fill="#2e2018"/><circle cx="208" cy="86" r="30" fill="#2e2018"/><circle cx="246" cy="96" r="27" fill="#2e2018"/><circle cx="272" cy="124" r="25" fill="#2e2018"/><circle cx="124" cy="152" r="22" fill="#2e2018"/><circle cx="280" cy="152" r="22" fill="#2e2018"/>
+  <ellipse cx="166" cy="216" rx="13" ry="8" fill="#b7784a" opacity=".45"/>
+  <ellipse cx="234" cy="216" rx="13" ry="8" fill="#b7784a" opacity=".45"/>
+  <path d="M156 162 C164 154 180 154 188 160" stroke="#1a0c04" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M212 160 C220 154 236 154 244 162" stroke="#1a0c04" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <ellipse cx="172" cy="186" rx="7" ry="8.5" fill="#2f2a3d"/>
+  <ellipse cx="228" cy="186" rx="7" ry="8.5" fill="#2f2a3d"/>
+  <circle cx="174.5" cy="183" r="2.4" fill="#ffffff"/>
+  <circle cx="230.5" cy="183" r="2.4" fill="#ffffff"/>
+  <path d="M194 200 C198 208 202 208 206 202" stroke="#b17244" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M176 222 C188 238 212 238 224 222" stroke="#8a4b46" stroke-width="7" stroke-linecap="round" fill="none"/>
+  
+</svg>
